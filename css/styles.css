@@ -1,0 +1,45 @@
+/* Колір основного тексту #212121 */
+/* Вторинний колір тексту #757575 */
+/* Вторинний колір фону #2F303A / #F5F4FA */
+/* Білий #FFFFFF */
+/* Акцент #2196F3 */
+
+:root{ --primary-text-color:#212121;
+       --title-text-color:#757575;
+     --accent-color: #2196F3;
+    --primary-white-color: #fff; }
+
+body { background-color:var(--primary-white-color);
+color: var(--title-text-color);}
+
+ul {list-style: none;}
+
+/* Шапка сайта */
+.logo{color:var(--accent-color);}
+.accent-head{ color:var(--primary-text-color);}
+.site-nav .link { color:var(--primary-text-color); }
+.site-nav .link:hover , .site-nav .link:focus { color:var(--accent-color); }
+
+.site-contact {color: var(--primary-text-color);}
+.site-contact .contact-link:hover , .site-contact .contact-link:focus { color:var(--accent-color); }
+
+/* Hero */
+.hero-section{ background-color: #2F303A;}
+.hero-title {color:var(--primary-white-color);}
+
+
+/* Button */
+.button { background-color: var(--accent-color);}
+
+.button-primary{ color: var(--primary-white-color);
+background-color: var(--accent-color);}
+
+/* Section */
+.section-title {color:var(--primary-text-color); }
+
+/* Features */
+.feature-list .title { color:var(--primary-text-color);}
+
+/* Footer */
+
+
